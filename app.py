@@ -37,9 +37,9 @@ if predictbutton:
          x1=np.array(X)
          X_array=scaler.transform([x1])
          prediction=model.predict(X_array)[0]
-         if prediction ==1
+         if prediction ==1:
             st.write(f"Prediction :Yes,Churn occurred")
-         else 
+         else :
             st.write(f"Prediction : No, Churn retained") 
 
 else:
